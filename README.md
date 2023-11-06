@@ -21,6 +21,12 @@ In env file give **DB_DATABASE=zemuria**
 
 In command prompt run **php artisan migrate**
 
+Adding 2 rows in users table (user and admin) **php artisan migrate:fresh --seed --seeder=UserSeeder**
+
+**for login:**
+user ->  email:tharun@gmail.com pass:Tharun@123
+admin -> email:admin@gmail.com pass:Admin@123
+
 **Running the project:**
 
 Command for running the project:
